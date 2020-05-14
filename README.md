@@ -28,7 +28,7 @@ Getting started with the installation. Find the instructions on [Tensorflow Obje
 - Clone or download the repo present under tensorflow/models  
 - Go to github.com/google/protobuf/releases/protoc-3.4.0-win32.zip (choose an appropriate one based on your OS)  
 - Extract the two downloaded files (mentioned above)  
-- Run the jupyter notebook 'object_detection_tutorial.ipynb'. This downloads a pretrained model for you. The pretrained model here is COCO (common objects in context)  
+- Run the jupyter notebook [object_detection_tutorial.ipynb](https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb). This downloads a pretrained model for you. The pretrained model here is COCO (common objects in context)  
 - The actual detection process takes place in the 'for' loop (in the last cell), which we need to modify based on our needs accordingly  
 - Loading in your custom images: In the jupyter notebook, make the necessary imports to load your images from a directory, modify the notebook to meet your needs and run it  
 
