@@ -1,0 +1,26 @@
+<annotation>
+	<folder>cropped</folder>
+	<filename>66_.jpg</filename>
+	<path>C:\Users\Irappak\cp\dataset_sim\cropped\66_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>194</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Yellow</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>103</xmin>
+			<ymin>460</ymin>
+			<xmax>125</xmax>
+			<ymax>515</ymax>
+		</bndbox>
+	</object>
+</annotation>
