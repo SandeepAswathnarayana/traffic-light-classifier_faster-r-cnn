@@ -34,7 +34,7 @@ Getting started with the installation. Find the instructions on [Tensorflow Obje
 
 ## How to build a custom (traffic light) object detection model using Tensorflow Object Detection API:  
 
-Add your objects of interest to the pre-trained model or use that models weights to give us a head start on training these new objects. The Tensorflow Object Detection API is basically a tradeoff between accuracy and speed.  
+Add your objects of interest to the pre-trained model or use that models weights to give us a head start on training these new objects. The Tensorflow Object Detection API is basically a tradeoff between accuracy and speed. Considering the dataset I was working on, I chose to use *faster_rcnn_inception_v2_coco*. Please see the full list of available models under [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).  
 
 Steps:  
 1. Collect around 500 (or more if you choose to) custom traffic light images ready  
