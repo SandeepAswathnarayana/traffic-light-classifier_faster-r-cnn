@@ -1,6 +1,6 @@
 # Traffic Light Classifier using Faster R-CNN   
 
-**Using TensorFlow Object Detection API, I built this traffic light classifier which is a crucial part of Udacity's Self Driving Car Engineer Nanodegree Capstone - Programming a Real Self-Driving Car.**  
+Using TensorFlow Object Detection API, I built this traffic light classifier which is a crucial part of Udacity's Self Driving Car Engineer Nanodegree Capstone - Programming a Real Self-Driving Car.  
 
 ## System Integration & Implementation  
 **Project Overview**  
