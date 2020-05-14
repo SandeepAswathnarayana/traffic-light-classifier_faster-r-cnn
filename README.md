@@ -13,7 +13,7 @@ Due to the limited amount of data available to train the network the decision wa
 
 For this we chose Faster-RCNN. The chosen network was pre-trained with the COCO dataset.  
 
-I initially started with SSD (Single Shot Detection) network. Transfer learning was achieved using the Object Detection API provided by Tensorflow. For simulated data the network was trained on the provided data by Udacity, however real-world data provided by Udacity was supplemented with a dataset of labelled traffic light images provided by Bosch. This dataset can be found [here](https://github.com/bosch-ros-pkg/bstld).  
+I initially started with SSD (Single Shot Detection) network and only then opted to use faster_rcnn_inception_v2_coco based on its performance for my dataset. Transfer learning was achieved using the Object Detection API provided by Tensorflow. For simulated data the network was trained on the provided data by Udacity, however real-world data provided by Udacity was supplemented with a dataset of labelled traffic light images provided by Bosch. This dataset can be found [here](https://github.com/bosch-ros-pkg/bstld).  
 
 
 ## Dataset  
