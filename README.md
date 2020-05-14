@@ -7,7 +7,7 @@ Using TensorFlow Object Detection API, I will walk you all through on how I buil
 
 The car would be operated on a test track and required to follow waypoints in a large circle. If the light is green, then the car is required to continue driving around the circle. If the light is red, then the car is required to stop and wait for the light to turn green. This is a part of the Perception process, one among the three major steps in the system integration project.  
 
-For traffic light detection and classification we decided to build a Faster R-CNN network as the purpose of the Fadter R-CNN is to detect the location and classify the detected object in one pass through the network.  
+For traffic light detection and classification we decided to build a Faster R-CNN network as the purpose of Faster R-CNN is to help fix the problem of selective search by replacing it with Region Proposal Network (RPN). We first extract feature maps from the input image using ConvNet and then pass those maps through a RPN which returns object proposals.  
 
 Due to the limited amount of data available to train the network the decision was made to take a pre-trained network and transfer learn the network on the available simulated and real datasets provided by Udacity.  
 
