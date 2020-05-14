@@ -103,7 +103,7 @@ Here's a high level overview of the model. It all starts with an image, from whi
 - a label assigned to each bounding box  
 - a probability for each label and bounding box  
 
-![faster rcnn_architecture](img/faster_rcnn_architecture.png)  
+![faster rcnn_architecture](img/faster rcnn_architecture.png)
 
 
 This [blog](https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/) has a pretty good explanation of how Object Detection works on Faster RCNN.  
