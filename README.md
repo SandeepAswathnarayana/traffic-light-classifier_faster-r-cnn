@@ -105,6 +105,7 @@ Here's a high level overview of the model. It all starts with an image, from whi
 
 ![faster rcnn_architecture](img/faster_rcnn_architecture.png)  
 
+
 This [blog](https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/) has a pretty good explanation of how Object Detection works on Faster RCNN.  
 This [medium post](https://medium.com/@smallfishbigsea/faster-r-cnn-explained-864d4fb7e3f8) is quite helpful to get a quick overview of the Faster RCNN networks.  
 
