@@ -85,8 +85,8 @@ To train our model, we need to setup a config file (along with TFRecord, pre-tra
 Steps:  
 - Go to tensorflow/models/object_detection/samples/configs on GitHub  
 - Download the model of your choice (Faster-RCNN, in our case) from the TF model detection zoo  
-- Run the two commands, each to donwload the config file and the F-RCNN model (also extract the downloaded model)  
-- Modify the config file to meet your requirements including, but not limited to, PATH_TO_BE_CONFIGURED, num_classes, batch_size, path to fine_tune_checkpoint  
+- Run the two commands, each to download the config file and the F-RCNN model (also extract the downloaded model)  
+- Modify the config file to meet your requirements including, but not limited to, PATH_TO_BE_CONFIGURED, num_classes, batch_size, the path to fine_tune_checkpoint  
 - Add the label map file with item and id values each for RED, YELLOW, and GREEN  
 
 ### Step 6: Train the actual model  
