@@ -26,7 +26,7 @@ Due to differences in the appearance of the site and simulator traffic lights, u
 # Building a Classifier:  
 Getting started with the installation. Find the instructions on [Tensorflow Object Detection API repository](https://github.com/tensorflow/models/tree/master/research/object_detection) and go to the path: `tensorflow/models/object_detection/g3doc/installation.md`.  
 - Clone or download the repo present under tensorflow/models  
-- Go to github.com/google/protobuf/releases/protoc-3.4.0-win32.zip (choose an appropriate one based on your OS)  
+- Go to https://github.com/protocolbuffers/protobuf/releases/tag/v3.4.0 and download protoc-3.4.0-win32.zip (choose an appropriate one based on your OS and requirements)    
 - Extract the two downloaded files (mentioned above)  
 - Run the jupyter notebook [object_detection_tutorial.ipynb](https://github.com/tensorflow/models/blob/master/research/object_detection/colab_tutorials/object_detection_tutorial.ipynb). This downloads a pretrained model for you. The pretrained model here is COCO (common objects in context)  
 - The actual detection process takes place in the 'for' loop (in the last cell), which we need to modify based on our needs accordingly  
