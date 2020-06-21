@@ -24,7 +24,7 @@ Using different Classification models for the Simulator and Site:
 Due to differences in the appearance of the site and simulator traffic lights, using the same traffic light classification model for both might not be appropriate. For this purpose is_site boolean from traffic_light_config is used to load a different classification model depending on the context.  
 
 # Building a Classifier:  
-Getting started with the installation. Find the instructions on [Tensorflow Object Detection API repository](https://github.com/tensorflow/models/tree/master/research/object_detection) and go the path: `tensorflow/models/object_detection/g3doc/installation.md`.  
+Getting started with the installation. Find the instructions on [Tensorflow Object Detection API repository](https://github.com/tensorflow/models/tree/master/research/object_detection) and go to the path: `tensorflow/models/object_detection/g3doc/installation.md`.  
 - Clone or download the repo present under tensorflow/models  
 - Go to github.com/google/protobuf/releases/protoc-3.4.0-win32.zip (choose an appropriate one based on your OS)  
 - Extract the two downloaded files (mentioned above)  
