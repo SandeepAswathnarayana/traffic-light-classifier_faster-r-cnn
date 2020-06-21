@@ -115,7 +115,7 @@ _NOTE_:
 
 ### Step 7: Export the graph  
 - Export the inference graph and save it  
-- Go to protobuf compilation present under tesorfow/models/object_detection and export the path. So, this loads up TF, makes the graph and saves it  
+- Go to protobuf compilation present under tensorflow/models/object_detection and export the path. So, this loads up TF, and then makes the graph and saves it  
 - Use this to do the object detection using the notebook object_detection_tutorial.ipynb that came in with the API  
 
 ### Step 8: Bring in the frozen_inference_graph to classify the traffic lights  
