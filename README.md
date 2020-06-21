@@ -80,7 +80,7 @@ We need some helper code from Dat Tran's [raccoon_dataset](https://github.com/da
 The reason we need the TFRecord files is to convert from anything that will generate data (say, Pascal VOOC format) to TFRecord so we could use them with the Object Detection API.  
 
 ### Step 5: Setup a configuration file  
-To train our model, we need to setup a config file (along with TFRecord, pre-trained model). Please find all the relevant files, installation information, pre-trained models and more on [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection).  
+To train our model, we need to set up a config file (along with TFRecord, pre-trained model). Please find all the relevant files, installation information, pre-trained models and more on [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection).  
 
 Steps:  
 - Go to tensorflow/models/object_detection/samples/configs on GitHub  
@@ -92,7 +92,7 @@ Steps:
 ### Step 6: Train the actual model  
 - Run your model using the python command while including the path to save the model, pipeline for the config file  
 - At this point, you should see the model summary with the steps and their corresponding loss values  
-- You could load up Tensorboard, if you want to visualize the values incuding loss, accuracy, steps and training time  
+- You could load up Tensorboard to visualize the values incuding loss, accuracy, steps and training time  
 - Now, you have the trained model ready. Next, load the model via checkpoint  
 
 **Faster RCNN Model Architecture**:  
