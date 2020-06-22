@@ -38,7 +38,7 @@ Add your objects of interest to the pre-trained model or use that models weights
 
 Steps:  
 1. Collect around 500 (or more if you choose to) custom traffic light images ready  
-2. Hand label the custom images using labelImg  
+2. Annotate the custom images using labelImg  
 3. Split them into train-test sets  
 4. Generate a TFRecord for the train-test split  
 5. Setup a config file  
@@ -51,10 +51,10 @@ Steps:
 
 **Site**: Download the carla site's traffic light images from the ROS bag provided by Udacity  
 
-### Step 2: Hand labelling the custom traffic light images:  
+### Step 2: Annotate the custom traffic light images:  
 Hand label the traffic light dataset images by using ['labelImg'](https://github.com/tzutalin/labelImg).  
 Steps:  
-- Clone the labelimg repository  
+- Clone the labelImg repository  
 - Follow along the installation steps meeting your python version requirements  
 - Run 'python labelimg.py'  
 - Open dir and open your traffic light dataset images  
