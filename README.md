@@ -44,7 +44,7 @@ Steps:
 5. Setup a config file  
 6. Train the actual model  
 7. Export the graph  
-8. Bring in the frozen inference graph and use that to classify traffic lights  
+8. Bring in the frozen inference graph to classify traffic lights in real-time  
 
 ### Step 1: Collecting custom traffic light images  
 **Simulator**: Run the simulator with the camera on and follow the instructions to collect the traffic light images from the simulator.  
@@ -95,7 +95,7 @@ Steps:
 - You could load up Tensorboard to visualize the values incuding loss, accuracy, steps and training time  
 - Now, you have the trained model ready. Next, load the model via checkpoint  
 
-**Faster RCNN Model Architecture**:  
+**Faster R-CNN Model Architecture**:  
 Faster R-CNN was originally published in [NIPS 2015](https://arxiv.org/abs/1506.01497). The architecture of Faster R-CNN is complex because it has several moving parts.  
 
 Here's a high level overview of the model. It all starts with an image, from which we want to obtain:  
@@ -106,8 +106,8 @@ Here's a high level overview of the model. It all starts with an image, from whi
 ![faster rcnn_architecture](https://github.com/SandeepAswathnarayana/traffic-light-classifier_faster-r-cnn/blob/master/img/faster%20rcnn_architecture.jpg)  
 
 
-This [blog](https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/) has a pretty good explanation of how Object Detection works on Faster RCNN.  
-This [medium post](https://medium.com/@smallfishbigsea/faster-r-cnn-explained-864d4fb7e3f8) is quite helpful to get a quick overview of the Faster RCNN networks.  
+This [blog](https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/) has a pretty good explanation of how Object Detection works on Faster R-CNN.  
+This [medium post](https://medium.com/@smallfishbigsea/faster-r-cnn-explained-864d4fb7e3f8) is quite helpful to get a quick overview of the Faster R-CNN networks.  
 
 _NOTE_:  
 - After experimenting with different models including **SSD Inception V2**, **Faster RCNN** and **Nvidia's Convolutional Neural Network**, we eventually decided to go with Faster RCNN after finding its performance to be compelling for our traffic light dataset. At the end of the day, choosing an appropriate model is a trade-off between accuracy and speed to meet your requirements.  
@@ -118,7 +118,7 @@ _NOTE_:
 - Go to protobuf compilation present under tensorflow/models/object_detection and export the path. So, this loads up TF, and then makes the graph and saves it  
 - Use this to do the object detection using the notebook object_detection_tutorial.ipynb that came in with the API  
 
-### Step 8: Bring in the frozen_inference_graph to classify the traffic lights  
+### Step 8: Bring in the frozen_inference_graph to classify the traffic lights in real-time  
 - Modify the 'export_inference_graph.py' to meet your requirements  
 - Run the installation command to export the inference graph (tensorflow/models/object_detection/installation.md). Now, you have the 'frozen_inference_graph.pb' and checkpoint files ready  
 - Open the object_detection_tutorial.ipynb notebook. Make the necessary modifications in the notebook including, but not limited to, model name, NUM_CLASSES, TEST_IMAGE_PATHS. Run the notebook to see your traffic lights with bounding boxes and their prediction accuracies  
