@@ -110,7 +110,7 @@ This [blog](https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-ho
 This [medium post](https://medium.com/@smallfishbigsea/faster-r-cnn-explained-864d4fb7e3f8) is quite helpful to get a quick overview of the Faster R-CNN networks.  
 
 _NOTE_:  
-- After experimenting with different models including **SSD Inception V2**, **Faster RCNN** and **Nvidia's Convolutional Neural Network**, we eventually decided to go with Faster RCNN after finding its performance to be compelling for our traffic light dataset. At the end of the day, choosing an appropriate model is a trade-off between accuracy and speed to meet your requirements.  
+- After experimenting with different models including **SSD Inception V2**, **Faster R-CNN** and **Nvidia's Convolutional Neural Network**, we eventually decided to go with Faster R-CNN after finding its performance to be compelling for our traffic light dataset. At the end of the day, choosing an appropriate model is a trade-off between accuracy and speed to meet your requirements.  
 - Please find the State-of-the-Art Models in Object Detection on [paperswithcode.com](https://paperswithcode.com/task/object-detection). I decided to choose Faster R-CNN based on its performance meeting the requirements for 'accuracy' as opposed to 'speed' in the object detection process. Moreover, TensorFlow hasn't kept abreast of the SOTA models by adding the same to its TensorFlow Object Detection API repository.  
 
 ### Step 7: Export the graph  
@@ -123,3 +123,7 @@ _NOTE_:
 - Run the installation command to export the inference graph (tensorflow/models/object_detection/installation.md). Now, you have the 'frozen_inference_graph.pb' and checkpoint files ready  
 - Open the object_detection_tutorial.ipynb notebook. Make the necessary modifications in the notebook including, but not limited to, model name, NUM_CLASSES, TEST_IMAGE_PATHS. Run the notebook to see your traffic lights with bounding boxes and their prediction accuracies  
 
+**Limitations:**  
+- Given the scope of this project, I have used only a few images from the web along with the ones from the simulator and the CARLA site. And, the model hasn’t been tested on a new, unknown site.  
+- The model’s performance in unique lighting and weather conditions is unknown as most of the images used here were captured on a typical bright, sunny day.  
+- With perpetual research in the field, there are other State-of-the-Art object detection models which might have relatively better performance accuracies.  
