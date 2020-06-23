@@ -126,4 +126,4 @@ _NOTE_:
 **Limitations:**  
 - Given the scope of this project, I have used only a few images from the web along with the ones from the simulator and the CARLA site. And, the model hasn’t been tested on a new, unknown site.  
 - The model’s performance in unique lighting and weather conditions is unknown as most of the images used here were captured on a typical bright, sunny day.  
-- With perpetual research in the field, there are other State-of-the-Art object detection models which might have relatively better performance accuracies.  
+- With perpetual research in the field, there are other [State-of-the-Art object detection models](https://paperswithcode.com/task/object-detection) which might have relatively better performance accuracies.  
