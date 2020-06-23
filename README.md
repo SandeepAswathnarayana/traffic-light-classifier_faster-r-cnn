@@ -111,7 +111,7 @@ This [medium post](https://medium.com/@smallfishbigsea/faster-r-cnn-explained-86
 
 _NOTE_:  
 - After experimenting with different models including **SSD Inception V2**, **Faster R-CNN** and **Nvidia's Convolutional Neural Network**, we eventually decided to go with Faster R-CNN after finding its performance to be compelling for our traffic light dataset. At the end of the day, choosing an appropriate model is a trade-off between accuracy and speed to meet your requirements.  
-- Please find the State-of-the-Art Models in Object Detection on [paperswithcode.com](https://paperswithcode.com/task/object-detection). I decided to choose Faster R-CNN based on its performance meeting the requirements for 'accuracy' as opposed to 'speed' in the object detection process. Moreover, TensorFlow hasn't kept abreast of the SOTA models by adding the same to its TensorFlow Object Detection API repository.  
+- Please find the State-of-the-Art Models in Object Detection on [Papers With Code](https://paperswithcode.com/task/object-detection). I decided to choose Faster R-CNN based on its performance meeting the requirements for 'accuracy' as opposed to 'speed' in the object detection process. Moreover, TensorFlow hasn't kept abreast of the SOTA models by adding the same to its TensorFlow Object Detection API repository.  
 
 ### Step 7: Export the graph  
 - Export the inference graph and save it  
