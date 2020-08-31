@@ -3,7 +3,7 @@
 Using TensorFlow Object Detection API, I will walk you all through on how I built this traffic light classifier. This classifier is a crucial part of Udacity's Self Driving Car Engineer Nanodegree Capstone - Programming a Real Self-Driving Car.  
 
 ## Note to Readers  
-A comprehensive explanation and instructions on how to modify the code to build and deploy your own custom object detection model is available on my **[Medium article](https://towardsdatascience.com/how-to-build-a-custom-object-detector-classifier-using-tensorflow-object-detection-api-811b7bcd31c4)**.  
+A comprehensive explanation and instructions on how to modify the code to build and deploy your own custom object detection model are available on my **[Medium article](https://towardsdatascience.com/how-to-build-a-custom-object-detector-classifier-using-tensorflow-object-detection-api-811b7bcd31c4)**.  
 
 ## System Integration & Implementation  
 **Project Overview**  
